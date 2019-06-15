@@ -1,0 +1,30 @@
+#data1 = input("type of data to be entered : ")
+data2 = "my name is shivam"#input(data1 + " ")
+#var1 = input("from where to where you want to print ")
+#var2 = input(" ")
+print(data2)
+data4= "i"
+data5="My_name_is_shivam"
+data3 = "My Name is shivam"#data2[int(var1):int(var2)]
+data6="   "
+print(data3)
+print(data2.lower())
+print(data2.upper())
+print(data2.count(data4))
+print(data3.casefold())
+print(data2.count("i",2,22))
+print(data2.encode())
+print(data2.rsplit(" "))
+print(data2.format_map(map))
+print(data2.index("i",9))
+print(data5.isidentifier())
+print(data2.isnumeric())
+print(data2.isprintable())
+print(data6.isspace())
+x=data2.rsplit(" ")
+print(x)
+y ={"name":"shivam","country":"india"}
+print("# ".join(y))
+print(data2.swapcase())
+print(data2.title())
+print(data2.split(" ",2))
